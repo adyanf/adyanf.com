@@ -44,6 +44,17 @@ function reflectPreference() {
       .querySelector("meta[name='theme-color']")
       ?.setAttribute("content", bgColor);
   }
+
+  // Set profile image based on theme
+  if (themeValue === "dark") {
+    document
+      .querySelector("#profile-image")
+      ?.setAttribute("src", "/assets/pp_dark.png");
+  } else {
+    document
+      .querySelector("#profile-image")
+      ?.setAttribute("src", "/assets/pp_light.png");
+  }
 }
 
 // set early so no page flashes / CSS is made aware

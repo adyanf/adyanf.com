@@ -3,34 +3,21 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img id="profile-image" class="sm:w-1/4 mx-auto" src="/assets/pp_dark.png" alt="profile image">
 </div>
 
-## Tech Stack
+I am a software engineer passionate about System Architecture, Distributed Systems, and Mobile Application. I also have an interest on Artificial Intelligence.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+Currently, I work mainly as Backend Engineer at [AlloFresh](https://allofresh.id), building e-grocery experience in Indonesia.
 
-## Features
+Before my current role, I worked at [Bukalapak](https://www.bukalapak.com) as Mobile App Engineer (Android) on O2O Team, building Mitra Bukalapak application.
 
-Here are certain features of this site.
+For my study, I went to [Bandung Institute of Technology](), majoring in Informatics Engineering.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+In my free time, I enjoy playing sports like football, badminton, and racing (go-kart).
+Additionally, I have a passion for traveling, and my ultimate goal is to explore every continent in the world.
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+## Connect
+
+You can contact me via [LinkedIn](https://linkedin.com/in/adyanf), [Instagram](https://instagram.com/adyanaufalfikri), [Github](https://github.com/adyanf), or sent me an [email](mailto:adyanaufalf@gmail.com).

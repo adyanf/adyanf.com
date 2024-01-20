@@ -23,13 +23,22 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Adya Naufal Fikri</h1>
-
+      <img id="profile-image" class="sm:w-1/4" src="/assets/pp_dark.png" alt="profile image">
+  
       <p>
-        Hey there! Welcome to my little corner of the internet. 
-        This is where I want to show you a little peek into my life as a software engineer, 
-        mixing it a bit with my personal life for good measure. 
-        But don't expect anything too fancy, after all I'm not a good story teller. <b>😅</b>
+        Hi there! I'm <b>Adya</b>. Welcome to my little corner of the internet.
+        In this blog, I want to give you a little peek into my life as a software engineer, 
+        mixing it with a bit of my personal life for a good humor haha.
+        But don't expect too much though, because I'm not the best storyteller 😅.
+      </p>
+      <p>
+        Currently, I work as a software engineer at 
+        <LinkButton
+          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="https://allofresh.id"
+        >
+          AlloFresh
+        </LinkButton>.
       </p>
       {
         // only display if at least one social link is enabled
