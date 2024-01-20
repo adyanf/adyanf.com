@@ -30,5 +30,5 @@ I hope that someday what I write on this blog could be useful for someone out th
 
 Okay, that's it for now. Until next time. Bye.
 
-Sincerily,\
+Sincerely,\
 Adya
