@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Adya Naufal Fikri",
   desc: "A personal blog to share my thought",
   title: "Adya Naufal Fikri",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "adyanf-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
