@@ -23,31 +23,37 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <img id="profile-image" class="sm:w-1/4" src="/assets/pp_dark.png" alt="profile image">
-  
-      <p>
-        Hi there! I'm <b>Adya</b>. Welcome to my little corner of the internet.
-        In this blog, I want to give you a little peek into my life as a software engineer, 
-        mixing it with a bit of my personal life for a good humor haha.
-        But don't expect too much though, because I'm not the best storyteller 😅.
-      </p>
-      <p>
-        Currently, I work as a software engineer at 
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://allofresh.id"
-        >
-          AlloFresh
-        </LinkButton>.
-      </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <Socials />
-          </div>
-        )
-      }
+      <div class="flex flex-col items-center justify-between sm:flex-row">
+        <div class="w-3/4 mb-4 sm:w-1/4 sm:mr-4 sm:mb-0">
+          <img id="profile-image" src="/assets/pp_dark.png" alt="profile image">
+        </div>
+        <div class="sm:w-3/4">
+          <p>Hi there! I'm <b>Adya</b>.</p>
+          <p>
+            Welcome to my little corner of the internet.
+            In this blog, I want to give you a little peek into my life as a software engineer, 
+            mixing it with a bit of my personal life for a good humor haha.
+            But don't expect too much though, because I'm not the best storyteller 😅.
+          </p>
+          <p>
+            Currently, I work as a software engineer at 
+            <LinkButton
+              className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+              href="https://allofresh.id"
+            >
+              AlloFresh
+            </LinkButton>.
+          </p>
+          {
+            // only display if at least one social link is enabled
+            socialCount > 0 && (
+              <div class="social-wrapper">
+                <Socials />
+              </div>
+            )
+          }
+        </div>
+      </div>
     </section>
 
     <Hr />
